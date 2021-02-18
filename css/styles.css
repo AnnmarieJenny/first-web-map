@@ -1,0 +1,15 @@
+
+#map-container {
+  background-color: steelblue;
+  margin: 0 auto;
+}
+/* The above is the same as the html code:
+id='map-container' style='width: 400px; height: 300px
+
+margin: 0 auto helps center your map
+
+/* QUESTION: when specifying width and height settings for example
+in both html and css, which one will utlimately be followed?
+It appears to be html but I'm not sure if there's other factors to
+consider. */
+*/

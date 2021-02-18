@@ -1,0 +1,52 @@
+[
+  {
+    "name": "The Chai Spot",
+    "lng": -73.99613012,
+    "lat": 40.7196767,
+    "hours": "Wed-Fri: 3-10PM | Sat-Sun: 12-10PM",
+    "outdoorseating": "Outdoor Seating!",
+    "description": "You should chai it!",
+    "website": "https://www.thechaispot.com/",
+    "image-link": "https://s3-media0.fl.yelpcdn.com/bphoto/GGeoPoWHBUHli_-0XKDB7w/o.jpg"
+  },
+  {
+    "name": "Kettl",
+    "lng": -73.94827931,
+    "lat": 40.7174529,
+    "hours": "Thurs-Mon: 11AM-6PM",
+    "outdoorseating": "No Outdoor Seating",
+    "description": "The Finest Japanese Tea Shipped From The Source",
+    "website": "https://kettl.co/pages/about-us",
+    "image-link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thanksforthemeal.net%2Fkettl-tea%2F&psig=AOvVaw3JmO-PhegV3P6hNGJCT9n6&ust=1613704976142000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDpktS98u4CFQAAAAAdAAAAABAD"
+  },
+  {
+    "name": "Janam Tea",
+    "lng": -73.98509593,
+    "lat": 40.71968979,
+    "hours": "Wed-Sun: 12-5PM",
+    "outdoorseating": "No Outdoor Seating",
+    "description": "Eclectic teahouse with artful decor offering refined Indian teas.",
+    "website": "https://www.janamtea.com/",
+    "image-link": "https://static01.nyt.com/images/2017/10/01/nyregion/01JOINT1/01JOINT1-superJumbo-v2.jpg?quality=90&auto=webp"
+  },
+  {
+    "name": "Bellocq",
+    "lng": -73.95919854,
+    "lat": 40.73046975,
+    "hours": "Wed-Thurs: 12-6PM | Fri-Sat: 12-7PM | Sun: 12-5PM",
+    "outdoorseating": "No Outdoor Seating",
+    "description": "Janam Tea, housed in Garfunkel’s, a speakeasy-style cocktail lounge on the Lower East Side. Offers afternoon tea!",
+    "website": "https://www.bellocqtea.com/",
+    "image-link": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fannawu.com%2Fblog%2F2015%2F01%2Fbrooklyn-november%2F&psig=AOvVaw3hp8FYrw8Eg4konvGCEeO6&ust=1613705431376000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDs-bu_8u4CFQAAAAAdAAAAABAD"
+  },
+  {
+    "name": "Aateaz",
+    "lng": -73.95304266,
+    "lat": 40.78067411,
+    "hours": "Sun-Thurs: 7AM-6PM | Fri-Sat: 7AM-9PM",
+    "outdoorseating": "No Outdoor Seating",
+    "description": "Rustic-style counter-serve featuring gourmet tea and coffee, plus sandwhiches, pastries, and desserts.",
+    "website": "http://www.aateaz.com/",
+    "image-link": "https://assets.zencare.co/2019/07/pb-aerial_orig.jpg"
+  }
+]
