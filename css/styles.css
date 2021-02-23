@@ -1,8 +1,22 @@
 
 #map-container {
-  background-color: steelblue;
-  margin: 0 auto;
+  top: 0px;
+  width: 78%;
+  height: 1200px;
+  right: 0;
+  float: right;
 }
+
+/*
+#map-container {
+  top: 108px;
+  width: 100%;
+  height: 790px;
+  background-color: #00008B;
+  margin: 0 auto;
+  text-align: center;
+}
+*/
 /* The above is the same as the html code:
 id='map-container' style='width: 400px; height: 300px
 
@@ -12,4 +26,110 @@ margin: 0 auto helps center your map
 in both html and css, which one will utlimately be followed?
 It appears to be html but I'm not sure if there's other factors to
 consider. */
-*/
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22%;
+  height: 100%;
+  background-color: #003594;
+}
+
+.title{
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Gilroy-Regular', sans-serif;
+    margin-left: 20px;
+}
+
+.bodytext{
+  color:#fff;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align:left;
+  margin-left: 20px;
+  margin-right:20px;
+  display: block;
+}
+
+.legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 90%;
+  color: black;
+  background-color: white; // can you do a slightly faded color?
+  height: 100px;
+  width: 235px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  }
+
+/*.legend-scale {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  }
+
+.legend-scale {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+  }
+
+.legend-labels {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+  }
+
+.my-legend {
+  color: #777;
+  }*/
+
+/*
+.my-legend{
+  position: absolute;
+  right: 20px;
+  top: 175px;
+  background-color: white; // can you do a slightly faded color?
+  height: 100px;
+  width: 235px;
+  font-family: verdana;
+  color: #00008B;
+  border: 10px solid white;
+}*/
+
+
+.caption{
+  margin: 5px;
+  text-align: right;
+  padding-top: 7px;
+  font-weight: 550;
+  display: inline-block;
+}
+
+.icons{
+  height: 50px;
+  width: 30px;
+  padding-left: 7px;
+  padding-bottom: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.marker{
+  display: block;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-size:cover;
+}

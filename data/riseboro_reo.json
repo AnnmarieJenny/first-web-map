@@ -1,0 +1,814 @@
+[
+  {
+    "entity": "420 Stockholm Associates L.P.",
+    "lat": 40.7059353753983,
+    "lng": -73.9162770735935,
+    "address": "420 Stockholm Street Brooklyn 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "857 Hart Street HDFC",
+    "lat": 40.7028127185323,
+    "lng": -73.9223818005775,
+    "address": "857 Hart Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Coretta Scott King HDFC",
+    "lat": 40.6643526976296,
+    "lng": -73.8842673870868,
+    "address": "660 Jerome Street Brooklyn NY 11207",
+    "type": "Senior"
+  },
+  {
+    "entity": "Esperanza TPT HDFC",
+    "lat": 40.7075510710645,
+    "lng": -73.9218348159214,
+    "address": "24 St Nicholas Avenue Brookly NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Esperanza TPT HDFC",
+    "lat": 40.6969059080843,
+    "lng": -73.9199907159218,
+    "address": "161 Bleecker Street Brooklyn NY 11221",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Esperanza TPT HDFC",
+    "lat": 40.7075592040407,
+    "lng": -73.9218133582494,
+    "address": "24 St Nicholas Avenue Brookly NY 11237",
+    "type": "Commercial"
+  },
+  {
+    "entity": "Gates Gardens HDFC",
+    "lat": 40.6955506062352,
+    "lng": -73.9167652024299,
+    "address": "1349 Gates Avenue Brooklyn NY 11221",
+    "type": "Senior"
+  },
+  {
+    "entity": "Gates Plaza HDFC",
+    "lat": 40.6935491856641,
+    "lng": -73.9185924717417,
+    "address": "1245 Gates Avenue Brooklyn NY 11237",
+    "type": "Senior"
+  },
+  {
+    "entity": "Goodwin Place Housing for the Elderly HDFC",
+    "lat": 40.6917018873869,
+    "lng": -73.9231044294139,
+    "address": "55 Goodwin Place Brooklyn NY 11221",
+    "type": "Senior"
+  },
+  {
+    "entity": "Goodwin Place Housing for the Elderly HDFC",
+    "lat": 40.6976385027542,
+    "lng": -73.9227678159217,
+    "address": "143 Himrod Street Brooklyn NY 11221",
+    "type": "Senior"
+  },
+  {
+    "entity": "Himrod Street Associates L.P.",
+    "lat": 40.6980569988903,
+    "lng": -73.9223850177738,
+    "address": "165 Himrod Street Brooklyn NY 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7046281465237,
+    "lng": -73.9264748312655,
+    "address": "299 Jefferson Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7045473802151,
+    "lng": -73.9259090024295,
+    "address": "304 Jefferson Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7053822437611,
+    "lng": -73.9256688177736,
+    "address": "22 Irving Avenue Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7017562577465,
+    "lng": -73.9204209024296,
+    "address": "244 Stockholm Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7017544217632,
+    "lng": -73.9203454447577,
+    "address": "246 Stockhom Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.698375963835,
+    "lng": -73.9150057735938,
+    "address": "273 Linden Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7045240135529,
+    "lng": -73.9260040312656,
+    "address": "302 Jefferson Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.6986888311219,
+    "lng": -73.9152720177739,
+    "address": "304 Grove Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.6988178670079,
+    "lng": -73.9151097312658,
+    "address": "308 Grove Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.6989492984325,
+    "lng": -73.9150775889378,
+    "address": "312 Grove Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Irving Stockholm L.P.",
+    "lat": 40.7048944455031,
+    "lng": -73.9256044447576,
+    "address": "316 Jefferson Street Brooklyn 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Jefferson SPI HDFC",
+    "lat": 40.7045155468304,
+    "lng": -73.9265689447576,
+    "address": "295 Jefferson Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Knickerbocker Commons Associates L.P.",
+    "lat": 40.6930601135333,
+    "lng": -73.9074195601019,
+    "address": "803 Knickerbocker Avenue Brooklyn NY 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Knickerbocker Square Associates L.P.",
+    "lat": 40.6972311013106,
+    "lng": -73.9150554177739,
+    "address": "557 Knickerbocker Avenue Brooklyn NY 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Linden Central Associates L.P.",
+    "lat": 40.694629247257,
+    "lng": -73.9181167024298,
+    "address": "150 Linden Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Melrose Street Apartments L.P.",
+    "lat": 40.7016341546839,
+    "lng": -73.9306792447576,
+    "address": "63 Central Avenue Brooklyn NY 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Melrose SPI HDFC",
+    "lat": 40.7018452573987,
+    "lng": -73.9304589312657,
+    "address": "239 Melrose Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Melrose SPI HDFC",
+    "lat": 40.7037230488169,
+    "lng": -73.9278977601017,
+    "address": "348 Melrose Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Mennonite United Revival Apts L.P.",
+    "lat": 40.7053855104798,
+    "lng": -73.9263515159215,
+    "address": "424 Melrose Street Brooklyn NY 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Moffat Gardens HDFC",
+    "lat": 40.6837810202474,
+    "lng": -73.9097035889383,
+    "address": "22 Moffat Street Brooklyn NY 11207",
+    "type": "Senior Assisted Living Program"
+  },
+  {
+    "entity": "Noll Street Associates L.P.",
+    "lat": 40.702195054074,
+    "lng": -73.9314687735936,
+    "address": "43 Central Avenue Brooklyn 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Plaza de los Ancianos HDFC",
+    "lat": 40.6973249352854,
+    "lng": -73.9188965601018,
+    "address": "297 Wilson Avenue Brooklyn NY 11237",
+    "type": "Senior"
+  },
+  {
+    "entity": "JOE RB Harman Street LLC",
+    "lat": 40.6923991503213,
+    "lng": -73.9209394159219,
+    "address": "73 Linden St Brooklyn NY 11237",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "JOE RB Harman Street LLC",
+    "lat": 40.699326063183,
+    "lng": -73.9198528159217,
+    "address": "251 Harman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Renaissance Estates Apartments L.P",
+    "lat": 40.7008381569198,
+    "lng": -73.9360161582496,
+    "address": "10 Forrest Street Brooklyn NY 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Rheingold Gardens Associates L.P.",
+    "lat": 40.6999832271704,
+    "lng": -73.9357687735937,
+    "address": "533-555 Bushwick Avenue Brooklyn NY 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Rheingold Heights One Associates L.P.",
+    "lat": 40.6994223328659,
+    "lng": -73.9341580024297,
+    "address": "87 Melrose Street Brooklyn NY 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Rheingold Heights One Associates L.P.",
+    "lat": 40.6994223328659,
+    "lng": -73.9341580024297,
+    "address": "87 Melrose Street Brooklyn NY 11206",
+    "type": "Commercial"
+  },
+  {
+    "entity": "Rheingold Heights Two Associates L.P.",
+    "lat": 40.6991976635907,
+    "lng": -73.9347117294136,
+    "address": "61 Melrose Street Brooklyn NY 11206",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Rheingold Heights Two Associates L.P.",
+    "lat": 40.6991304978352,
+    "lng": -73.9348344619539,
+    "address": "591 Bushwick Avenue Brooklyn NY 11206",
+    "type": "Commercial"
+  },
+  {
+    "entity": "Schaefer Street Apartments HDFC",
+    "lat": 40.6854842714263,
+    "lng": -73.9124483312662,
+    "address": "21 Schaefer Street Brooklyn NY 11207",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7048576123021,
+    "lng": -73.9311886870855,
+    "address": "26 Morgan Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.6828507595625,
+    "lng": -73.9080525159222,
+    "address": "27 Granite Street Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.6944237171766,
+    "lng": -73.9219022601019,
+    "address": "64 Bleecker Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7005806946226,
+    "lng": -73.9222165735937,
+    "address": "195 Stockholm Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.701155154692,
+    "lng": -73.9132816159216,
+    "address": "279 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7007190925977,
+    "lng": -73.9126159312657,
+    "address": "299 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.701490890053,
+    "lng": -73.9255983754457,
+    "address": "1116 Willoughby Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.6981808692636,
+    "lng": -73.920034104282,
+    "address": "1285 Greene Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7064314720652,
+    "lng": -73.9206225870855,
+    "address": "1344 Willoughby Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7001244267393,
+    "lng": -73.9179130870856,
+    "address": "1351 Greene Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Stammtisch Associates L.P.",
+    "lat": 40.7031388517059,
+    "lng": -73.9202281889378,
+    "address": "1560 Dekalb Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Troutman Evergreen HDFC",
+    "lat": 40.6988004648518,
+    "lng": -73.9307328889378,
+    "address": "78 Troutman Street Brooklyn 11206",
+    "type": "Senior"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6986444312574,
+    "lng": -73.9322606601018,
+    "address": "49 Troutman Street Brooklyn NY 11206",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6946189398079,
+    "lng": -73.9204312447578,
+    "address": "84 Menahan Street Brooklyn NY 11221",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7007778570891,
+    "lng": -73.9291514735937,
+    "address": "97 Central Avenue Brooklyn NY 11206",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7019191875711,
+    "lng": -73.9156003601017,
+    "address": "184 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6898230526898,
+    "lng": -73.9081155024301,
+    "address": "187 Schaefer Street Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.701652756969,
+    "lng": -73.9188805717415,
+    "address": "192 Irving Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7028394520281,
+    "lng": -73.9269278294136,
+    "address": "233 Troutman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7025731528737,
+    "lng": -73.9266500159216,
+    "address": "234 Troutman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7016933568251,
+    "lng": -73.9142512005775,
+    "address": "255 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6938307499869,
+    "lng": -73.9118137312659,
+    "address": "258 Cornelia Street Brooklyn NY 11221",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7021245869693,
+    "lng": -73.9206227870855,
+    "address": "261 Stockholm Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7015158586858,
+    "lng": -73.9138446907899,
+    "address": "265 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7042124479039,
+    "lng": -73.9264143466097,
+    "address": "268 Jefferson Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7043301140888,
+    "lng": -73.9250533447576,
+    "address": "306 Troutman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7063278078004,
+    "lng": -73.9200441601015,
+    "address": "421 Suydam Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6875880941294,
+    "lng": -73.9058812735941,
+    "address": "669 Central Avenue Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6877950643737,
+    "lng": -73.9071037889382,
+    "address": "678 Central Avenue Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7024997867265,
+    "lng": -73.9219792294136,
+    "address": "854 Hart Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7025878528269,
+    "lng": -73.9218736159215,
+    "address": "860 Hart Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7017589565928,
+    "lng": -73.9251796447576,
+    "address": "1126 Willoughby Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6922382600584,
+    "lng": -73.925995488938,
+    "address": "1225 Broadway Brooklyn NY 11221",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7046221796491,
+    "lng": -73.9222255447576,
+    "address": "1248 Willoughby Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.692684440567,
+    "lng": -73.914175317774,
+    "address": "1278 Putnam Avenue Brooklyn NY 11221",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.6982396007725,
+    "lng": -73.9197609159217,
+    "address": "1289 Greene Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick 203K HDFC",
+    "lat": 40.7028044849766,
+    "lng": -73.9153171312656,
+    "address": "1463 Greene Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7063108415482,
+    "lng": -73.9224676312656,
+    "address": "30 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Commercial"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7063108415482,
+    "lng": -73.9224676312656,
+    "address": "30 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7051542780896,
+    "lng": -73.9251780177736,
+    "address": "32 Irving Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7048475789885,
+    "lng": -73.9245675447575,
+    "address": "44 Irving Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7050789450083,
+    "lng": -73.9241854042816,
+    "address": "57 Irving Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7057215761034,
+    "lng": -73.9207927735935,
+    "address": "73 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7038409815824,
+    "lng": -73.9249963177736,
+    "address": "149 Starr Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.6996953280493,
+    "lng": -73.9223960735937,
+    "address": "174 Stockholm Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7010774873094,
+    "lng": -73.9204361024297,
+    "address": "235 Stanhope Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.70436274702,
+    "lng": -73.9262169331177,
+    "address": "276 Jefferson Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7006409251625,
+    "lng": -73.9185775447577,
+    "address": "311 Harman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7051159114018,
+    "lng": -73.9259963447575,
+    "address": "317 Jefferson Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.7050069117746,
+    "lng": -73.9254881024296,
+    "address": "320 Jefferson Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick NRP Associates L.P.",
+    "lat": 40.6993031312773,
+    "lng": -73.9167064159217,
+    "address": "1475 Myrtle Avenue Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.7006341928775,
+    "lng": -73.9198038312657,
+    "address": "233 Himrod Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.6987526035669,
+    "lng": -73.9145632717417,
+    "address": "285 Linden Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.6987741649353,
+    "lng": -73.9151969159217,
+    "address": "306 Grove Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.6988087944871,
+    "lng": -73.9150879177738,
+    "address": "310 Grove Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.7004679579595,
+    "lng": -73.9181324601017,
+    "address": "324 Harman Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.702458555002,
+    "lng": -73.9227921159216,
+    "address": "835 Hart Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.7030198514553,
+    "lng": -73.9222058447576,
+    "address": "869 Hart Street Brooklyn NY 11237",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.6906514102244,
+    "lng": -73.906162544758,
+    "address": "1269 Decatur Street Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "West Bushwick TPT HDFC",
+    "lat": 40.6905045456237,
+    "lng": -73.905573815922,
+    "address": "1274 Decatur Street Brooklyn NY 11207",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6924514850072,
+    "lng": -73.920937917774,
+    "address": "75 Linden Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6977322366482,
+    "lng": -73.9251243601018,
+    "address": "93-95 Stockholm Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6933946472827,
+    "lng": -73.920650488938,
+    "address": "104 Grove Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6935027080927,
+    "lng": -73.9203000582499,
+    "address": "110 Grove Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6936608811681,
+    "lng": -73.9201631005778,
+    "address": "116 Grove Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6937332503202,
+    "lng": -73.9200301717418,
+    "address": "120 Grove Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.697263438251,
+    "lng": -73.9214449601018,
+    "address": "160 Harman Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6978042364021,
+    "lng": -73.9214771466099,
+    "address": "173 Harman Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Casa Pasiva LLC",
+    "lat": 40.6979100385904,
+    "lng": -73.9214190024298,
+    "address": "181 Harman Street Brooklyn NY 11221",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Community Improvement Corp.",
+    "lat": 40.7024763178493,
+    "lng": -73.9155137735937,
+    "address": "217 Wyckoff Avenue Brooklyn NY 11237",
+    "type": "Administrative"
+  },
+  {
+    "entity": "Brooklyn Queens Family Respite",
+    "lat": 40.6766665615631,
+    "lng": -73.9253983907906,
+    "address": "1919 Pacific Street Brooklyn NY 11233",
+    "type": "Scattered Site"
+  },
+  {
+    "entity": "Our Lady of Lourdes Apartments, LLC",
+    "lat": 40.6811683845974,
+    "lng": -73.9060738159222,
+    "address": "11 DeSales Place Brooklyn NY 11207",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Our Lady of Lourdes Apartments, LLC",
+    "lat": 40.6814368199686,
+    "lng": -73.9058778447583,
+    "address": "21 DeSales Place Brooklyn NY 11207",
+    "type": "Multi-Family"
+  },
+  {
+    "entity": "Our Lady of Lourdes Apartments, LLC",
+    "lat": 40.6810224488026,
+    "lng": -73.9063156870863,
+    "address": "1875 Broadway Brooklyn NY 11207",
+    "type": "Multi-Family"
+  }
+]

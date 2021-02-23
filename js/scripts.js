@@ -3,13 +3,13 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYW5ubWFyaWVqZW5ueSIsImEiOiJja2w4NGUycWMydHVnM
 
 var options = {
     container: 'map-container', // container ID
-    style: 'mapbox://styles/mapbox/dark-v10', // style URL
+    style: 'mapbox://styles/mapbox/light-v10', // style URL
     // uses streets-v11 but there are many other options
     // light-v10
     // darkv-10
     // many other themes or styles you can find
-    center: [-73.942278,40.740154], // starting position [lng, lat] << South Jersey
-    zoom: 11// starting zoom
+    center: [-73.912018,40.685998], // starting position [lng, lat] << South Jersey
+    zoom: 12// starting zoom
     //pitch: 40 // causes a tilt in viewing
 }
 // splitting the var out below and above helps you refer to it (here "options") more than once
@@ -29,13 +29,13 @@ var nav = new mapboxgl.NavigationControl();
 map.addControl(nav, 'top-left');
 
 ///let's add a marker to the map
-var marker = new mapboxgl.Marker({ // could get rid of var market if you're never going to reference it again, show and hide,etc
+//var marker = new mapboxgl.Marker({ // could get rid of var market if you're never going to reference it again, show and hide,etc
   // variables help with interactions
-  color: 'red'//make sure to add quotes
-})
-  .setLngLat([-74.0060, 40.7128])
-  .setPopup(new mapboxgl.Popup().setHTML("<h1>City Hall!</h1>")) // add popup, using html
-  .addTo(map);
+//  color: 'red'//make sure to add quotes
+//})
+//  .setLngLat([-74.0060, 40.7128])
+//  .setPopup(new mapboxgl.Popup().setHTML("<h1>City Hall!</h1>")) // add popup, using html
+//  .addTo(map);
 
 // add several markers at once using a loop
 // starting with a csv and converting it into mappable data using code
@@ -43,62 +43,81 @@ var marker = new mapboxgl.Marker({ // could get rid of var market if you're neve
 // set up dummy data
 // this will be an array of objects - can review from last week
 // helpful resource for finding lat longs: bboxfinder.com
-var dummyData = [
-  {
-    name: 'The Pond',
-    point: [-73.974047,40.765837]
-  },
-  {
-    name: 'The Zoo',
-    point: [-73.971755,40.767857]
-  },
-  {
-    name: 'Strawberry Fields',
-    point: [-73.974844,40.775583]
-  }
-]
-dummyData.forEach(function(data) { //this row is where you name it, here it's named data
+// var dummyData = [
+//  {
+//    name: 'The Pond',
+//    point: [-73.974047,40.765837]
+//  },
+//  {
+//    name: 'The Zoo',
+//    point: [-73.971755,40.767857]
+//  },
+//  {
+//    name: 'Strawberry Fields',
+//    point: [-73.974844,40.775583]
+//  }
+//]
+//dummyData.forEach(function(data) { //this row is where you name it, here it's named data
   //it's good practice to name it the singular version of what's in the array
-  console.log(data.name, data.point)
+//  console.log(data.name, data.point)
 
-  new mapboxgl.Marker()
-  .setLngLat(data.point) // pass through an array
-  .setPopup(new mapboxgl.Popup().setHTML(`<h1>${data.name}</h1>`)) // add popup, using html
+//  new mapboxgl.Marker()
+//  .setLngLat(data.point) // pass through an array
+//  .setPopup(new mapboxgl.Popup().setHTML(`<h1>${data.name}</h1>`)) // add popup, using html
   // back ticks with the dollar sign and brackets allows you to put code/variables inside of the
-  .addTo(map);
-})
+//  .addTo(map);
+//})
 
 // can turn a csv into an array of objects using an online converter
 // csv to json >> csvjson converter
 
 // $ means we're in jquery world navigation
 // $.getJSON() takes two arguments: (1) location of json (internet or local) (2)
-$.getJSON('./data/nyc-tea-shops.json', function(teaShops){
-  console.log(teaShops)
-    teaShops.forEach(function(teaShop) {
-      console.log(teaShop.name, teaShop.hours)
+$.getJSON('./data/riseboro_reo.json', function(riseboroREO){
+  console.log(riseboroREO)
+    riseboroREO.forEach(function(riseboroREO) {
+      console.log(riseboroREO.entity, riseboroREO.type,
+        riseboroREO.address)
 
 var html = `
-<h3>${teaShop.name}</h3>
-<div>Hours: ${teaShop.hours}</div>
-<div><i>${teaShop.description}</i></div>
-`
+<h3>${riseboroREO.entity}</h3>
+<div><b>Building Type:</b> ${riseboroREO.type}</div>
+<div><b>Address:</b> ${riseboroREO.address}</div>`
+//<div><b>Units:</b> ${riseboroREO.units}</div>`
 
-var color = 'lightblue'
-  if(teaShop.outdoorseating === 'Outdoor Seating!'){
-    color = 'pink'
+var color = 'lightgrey'// in case I missed anything, it'll show in grey
+//create colors for:
+//Multi-Family, Scattered Site, Commercial, Senior, Administrative
+
+  if(riseboroREO.type === 'Multi-Family'){
+    color = '#fecc5c'
+  }
+  if(riseboroREO.type === 'Scattered Site'){
+    color = '#31a354'
+  }
+  if(riseboroREO.type === 'Senior'){
+    color = '#756bb1'
+  }
+  if(riseboroREO.type === 'Senior Assisted Living Program'){
+    color = '#54278f'
+  }
+  if(riseboroREO.type === 'Administrative'){
+    color = '#003594'
+  }
+  if(riseboroREO.type === 'Commercial'){
+    color = '#41b6c4'
   }
 
     new mapboxgl.Marker({
       color: color
     })
-    .setLngLat([teaShop.lng,teaShop.lat]) // pass through an array
+    .setLngLat([riseboroREO.lng,riseboroREO.lat]) // pass through an array
     .setPopup(new mapboxgl.Popup().setHTML(html))
     .addTo(map);
   })
 
 })
 
-// TO DOs 
+// TO DOs
 /// Create a color key
 // Insert a call to action
