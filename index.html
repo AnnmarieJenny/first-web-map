@@ -17,16 +17,17 @@
 <body>
   <div id='map-container'></div>
     <div class='header'>
-      <div class='heading'> <!--why have this as well as header?-->
-        <h1 class='title'>
-        RiseBoro Real Estate Properties <!-- fix hanging over text!-->
-        </h1>
+       <!--<div class='heading'>...why have this as well as header?-->
+        <h1 class='title'> RiseBoro Real Estate Properties <!-- fix hanging over text!-->
+          </h1>
+        <!-- helped me fix title issue  <h2 class='title-test'>Please Stay on One line-->
+            </h2>
           <p class ='bodytext'> RiseBoro Community Partnership is a non-profit community development corporation
             based in Bushwick, Brooklyn. This map displays RiseBoro's real estate properties.
             They are predominately affordable rental housing, along with the other categories listed in the legend.
-            Click each building for details.
-            <i>*Please note this map was not created by nor was it published by RiseBoro Community Partnership*</i></p>
-      </div>
+            Click each building for details.</p>
+            <p  class = "bodytext"><i>*Please note this map was not created by nor was it published by RiseBoro Community Partnership*</i></p>
+      <!--</div>-->
     </div>
     <!--using code from https://tilemill-project.github.io/tilemill/docs/guides/advanced-legends/-->
       <div class= 'my-legend'>
@@ -47,17 +48,18 @@
 
           .my-legend{
             position: absolute;
-              left: 650px;
-              top: 30px;
+              top: 20px;
+              left: 320px;
               background-color: white;
-              height: 150px;
-              width: 235px;
+              height: 165px;
+              width: 210px;
               font-family: 'Gilroy-Regular', sans-serif;
               color: #00008B;
               border: 10px solid white;
             }
           .my-legend .legend-title {
             text-align: left;
+            margin-left: 10px;
               margin-bottom: 5px;
               font-weight: bold;
               }
@@ -71,6 +73,7 @@
           .my-legend .legend-scale ul li {
             font-size: 90%;
               list-style: none;
+              margin-top: 5px;
               margin-left: 0;
               line-height: 18px;
               margin-bottom: 2px;
@@ -79,9 +82,9 @@
             display: block;
               float: left;
               height: 16px;
-              width: 30px;
-              margin-right: 5px;
-              margin-left: 0;
+              width: 22px;
+              margin-right: 10px;
+              margin-left: 10px;
               border: 1px solid #999;
               }
 
