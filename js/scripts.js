@@ -9,7 +9,7 @@ var options = {
     // darkv-10
     // many other themes or styles you can find
     center: [-73.912018,40.685998], // starting position [lng, lat] << South Jersey
-    zoom: 12// starting zoom
+    zoom: 13// starting zoom
     //pitch: 40 // causes a tilt in viewing
 }
 // splitting the var out below and above helps you refer to it (here "options") more than once
@@ -82,8 +82,8 @@ $.getJSON('./data/riseboro_reo.json', function(riseboroREO){
 var html = `
 <h3>${riseboroREO.entity}</h3>
 <div><b>Building Type:</b> ${riseboroREO.type}</div>
-<div><b>Address:</b> ${riseboroREO.address}</div>`
-//<div><b>Units:</b> ${riseboroREO.units}</div>`
+<div><b>Address:</b> ${riseboroREO.address}</div>
+<div><b>Housing Units:</b> ${riseboroREO.units}</div>`
 
 var color = 'lightgrey'// in case I missed anything, it'll show in grey
 //create colors for:
@@ -98,7 +98,7 @@ var color = 'lightgrey'// in case I missed anything, it'll show in grey
   if(riseboroREO.type === 'Senior'){
     color = '#756bb1'
   }
-  if(riseboroREO.type === 'Senior Assisted Living Program'){
+  if(riseboroREO.type === 'Senior Assisted Living'){
     color = '#54278f'
   }
   if(riseboroREO.type === 'Administrative'){

@@ -28,11 +28,11 @@ It appears to be html but I'm not sure if there's other factors to
 consider. */
 
 .header {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
-  width: 22%;
-  height: 100%;
+  width: 25%;
+  height: 1200px;
   background-color: #003594;
 }
 
@@ -42,6 +42,7 @@ consider. */
     font-weight: 600;
     font-family: 'Gilroy-Regular', sans-serif;
     margin-left: 20px;
+    width: 15%;
 }
 
 .bodytext{
@@ -53,17 +54,29 @@ consider. */
   display: block;
 }
 
-.legend-title {
-  text-align: left;
-  margin-bottom: 5px;
-  font-weight: bold;
-  font-size: 90%;
-  color: black;
-  background-color: white; // can you do a slightly faded color?
-  height: 100px;
-  width: 235px;
-  font-family: 'Gilroy-Regular', sans-serif;
+/*.my-legend{
+    position: absolute;
+    left: 650px;
+    top: 30px;
+    background-color: white;
+    height: 150px;
+    width: 235px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #00008B;
+    border: 10px solid white;
   }
+
+  .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 100%;
+    color: #00008B;
+    background-color: white; // can you do a slightly faded color?
+    height: 100px;
+    width: 235px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    }*/
 
 /*.legend-scale {
   margin: 0;
@@ -91,21 +104,20 @@ consider. */
   border: 1px solid #999;
   }
 
-.my-legend {
+/*.my-legend {
   color: #777;
-  }*/
+}
 
-/*
-.my-legend{
+/*.my-legend{
   position: absolute;
-  right: 20px;
-  top: 175px;
+  top: 30px;
   background-color: white; // can you do a slightly faded color?
   height: 100px;
   width: 235px;
   font-family: verdana;
   color: #00008B;
   border: 10px solid white;
+  left: 200px;
 }*/
 
 
