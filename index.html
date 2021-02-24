@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>RiseBoro Real Estate Offering</title>
+  <title>RiseBoro Real Estate Properties</title>
   <meta name="map-description" content="Nonprofit Real Estate Map">
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css" type="text/css">
@@ -15,20 +15,24 @@
 </head>
 
 <body>
-  <div id='map-container'></div>
-    <div class='header'>
+  <div class='master-container'>
+    <div id='map-container'></div>
+      <div class='header'>
        <!--<div class='heading'>...why have this as well as header?-->
         <h1 class='title'> RiseBoro Real Estate Properties <!-- fix hanging over text!-->
           </h1>
-        <!-- helped me fix title issue  <h2 class='title-test'>Please Stay on One line-->
-            </h2>
-          <p class ='bodytext'> RiseBoro Community Partnership is a non-profit community development corporation
+        <!-- helped me fix title issue  <h2 class='title-test'>Please Stay on One line
+        </h2>-->
+          <p class ='bodytext'> RiseBoro Community Partnership is a non-profit community development organization
             based in Bushwick, Brooklyn. This map displays RiseBoro's real estate properties.
             They are predominately affordable rental housing, along with the other categories listed in the legend.
             Click each building for details.</p>
             <p  class = "bodytext"><i>*Please note this map was not created by nor was it published by RiseBoro Community Partnership*</i></p>
+            <p class= "bodytext">For more information on RiseBoro's development portfolio, visit
+              <a href="https://www.riseboro.org/rb/housing/housing_development/">RB's Development Page</a>
       <!--</div>-->
     </div>
+  </div>
     <!--using code from https://tilemill-project.github.io/tilemill/docs/guides/advanced-legends/-->
       <div class= 'my-legend'>
         <div class='legend-title'> Map Legend </div>
@@ -49,19 +53,22 @@
           .my-legend{
             position: absolute;
               top: 20px;
-              left: 320px;
+              left: 550px;
               background-color: white;
-              height: 165px;
-              width: 210px;
+              height: 220px;
+              width: 275px;
               font-family: 'Gilroy-Regular', sans-serif;
               color: #00008B;
               border: 10px solid white;
+              z-index: 1;
             }
           .my-legend .legend-title {
             text-align: left;
             margin-left: 10px;
-              margin-bottom: 5px;
+              margin-bottom: 10px;
+              margin-top: 5px;
               font-weight: bold;
+              font-size: 25px;
               }
           .my-legend .legend-scale ul {
             margin: 0;
@@ -69,6 +76,7 @@
               padding: 0;
               float: left;
               list-style: none;
+              font-size: 25px;
               }
           .my-legend .legend-scale ul li {
             font-size: 90%;
@@ -76,7 +84,7 @@
               margin-top: 5px;
               margin-left: 0;
               line-height: 18px;
-              margin-bottom: 2px;
+              margin-bottom: 10px;
               }
           .my-legend ul.legend-labels li span {
             display: block;

@@ -8,7 +8,7 @@ var options = {
     // light-v10
     // darkv-10
     // many other themes or styles you can find
-    center: [-73.912018,40.685998], // starting position [lng, lat] << South Jersey
+    center: [-73.936210,40.691099], // starting position [lng, lat] << South Jersey
     zoom: 13// starting zoom
     //pitch: 40 // causes a tilt in viewing
 }
@@ -26,7 +26,7 @@ var map = new mapboxgl.Map(options); // if you didn't set this here, you couldn'
 
 //add a navigation control in the upper left corner
 var nav = new mapboxgl.NavigationControl();
-map.addControl(nav, 'top-left');
+map.addControl(nav, 'top-right');
 
 ///let's add a marker to the map
 //var marker = new mapboxgl.Marker({ // could get rid of var market if you're never going to reference it again, show and hide,etc
