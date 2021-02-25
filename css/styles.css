@@ -65,6 +65,9 @@ a {
   color:#6cace4;
 }
 
+/* tried different legend styling there
+but it worked more effectively in html */ 
+
 /*.my-legend{
     position: absolute;
     left: 650px;
@@ -131,37 +134,13 @@ a {
   left: 200px;
 }*/
 
-
-/*.caption{
-  margin: 5px;
-  text-align: right;
-  padding-top: 7px;
-  font-weight: 550;
-  display: inline-block;
-}*/
-
-/*.icons{
-  height: 50px;
-  width: 30px;
-  padding-left: 7px;
-  padding-bottom: 0px;ß
-  display:inline-block;
-  vertical-align:top;
-}*/
-
-/*.marker{
-  display: block;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  background-size:cover;
-}*/
-
-.Popup {
+/*.Popup {
   font-family: 'Gilroy-Regular', sans-serif;
   font-size: 20px;
-}
+}*/
+/*How can you increase the size of the font within the popups?*/
 
+/*the code below is from Chris Whong */
 html, body {
   margin: 0;
 }

@@ -117,7 +117,3 @@ var color = 'lightgrey'// in case I missed anything, it'll show in grey
   })
 
 })
-
-// TO DOs
-/// Create a color key
-// Insert a call to action
